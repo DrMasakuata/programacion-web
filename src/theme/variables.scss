@@ -3,6 +3,14 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** Mis colores **/
+  --ion-color-new: #37a3a4;
+	--ion-color-new-rgb: 55,163,164;
+	--ion-color-new-contrast: #000000;
+	--ion-color-new-contrast-rgb: 0,0,0;
+	--ion-color-new-shade: #308f90;
+	--ion-color-new-tint: #4bacad;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -236,7 +244,7 @@
 }
 
 html {
-  /* 
+  /*
    * For more information on dynamic font scaling, visit the documentation:
    * https://ionicframework.com/docs/layout/dynamic-font-scaling
    */
