@@ -13,6 +13,7 @@ import { RouterLink } from '@angular/router';
 })
 export class MainPage implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {

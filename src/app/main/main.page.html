@@ -1,13 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>main</ion-title>
+    <div style=" display: flex; justify-content: space-between;">
+      <ion-title>Principal</ion-title>
+      <ion-button [routerLink]="'login'">Iniciar sesion</ion-button>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">main</ion-title>
+      <div style="justify-content: space-between;">
+        <ion-title size="large">Principal</ion-title>
+
+      </div>
     </ion-toolbar>
   </ion-header>
 </ion-content>

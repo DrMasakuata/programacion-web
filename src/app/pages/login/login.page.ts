@@ -12,9 +12,26 @@ import { IonicModule } from '@ionic/angular';
 })
 export class LoginPage implements OnInit {
 
+  pasos:number = 1;
+  email: any;
+  password: any;
+  showPassword: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  nextStep(){
+    this.pasos ++;
+  }
+
+  mostrarContra() {
+    if (this.showPassword) {
+      this.showPassword = false;
+    } else {
+      this.showPassword = true;
+    }
   }
 
 }
